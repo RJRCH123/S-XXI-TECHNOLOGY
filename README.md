@@ -28,21 +28,21 @@ Se puede acceder a la página mediante el siguiente [link](sxxi-tecnology.netlif
 <div align="center">
 
 ## 📌 Página de Inicio
-<img src="./src/assets/flujo1.gif" width="400">
+<img src="./src/assets/flujo1.gif" width="800">
 </div>
 
 <div align="center">
 
 ## 📌 Ver Detalle del Producto | Agregar Producto
 
-<img src="./src/assets/flujo2.gif" width="400">
+<img src="./src/assets/flujo2.gif" width="800">
 </div>
 
 <div align="center">
 
 ## 📌 Lista de Compra | Eliminar Producto
 
-<img src="./src/assets/flujo3.gif" width="400">
+<img src="./src/assets/flujo3.gif" width="800">
 </div>
 
 ***
