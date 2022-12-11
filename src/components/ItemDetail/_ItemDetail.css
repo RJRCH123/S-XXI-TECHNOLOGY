@@ -1,0 +1,46 @@
+.btn-listcart {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    padding: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-listcart:hover {
+    background-color: gray;
+}
+
+.container_detail {
+display: flex;
+padding: 1rem;
+}
+
+.content_detail {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+gap: 1rem;
+padding: 1rem;
+}
+
+.detail_image {
+width: 400px;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.price {
+font-size: 40px;
+color: red;
+font-weight: bold;
+}

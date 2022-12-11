@@ -1,0 +1,34 @@
+/* Estilos Cards */
+.itemCart{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.itemCart img{
+width: 200px;
+}
+
+/* Estilos botón Eliminar Producto de Compra */
+.botonEliminarProductoCompra button{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    color: 	#FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.botonEliminarProductoCompra button:hover{
+    background: #FF0000;
+    color: #fff;
+}

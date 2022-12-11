@@ -1,20 +1,47 @@
-import { Link } from "react-router-dom";
-import CartWidget from "./CartWidget";
-import "./_Navbar.css";
+import React from "react";
+import { NavLink } from "react-router-dom";
+// STYLE
+import "./_NavBar.css";
+import Logo from "../../assets/logo.png";
+// COMPONENTS
+import CartWidget from "../CartWidget/CartWidget";
 
-const Navbar = () => {
+export const NavBar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-dark bg-dark fixed-top mb-5">
-        <div className="container-lg">
-          <Link to="/" className="navbar-brand h1">
-            S. XXI Technology
-          </Link>
-          <CartWidget/>
+    <div className="container_navbar">
+      <nav className="nav">
+        <div className="brand-nav">
+          <NavLink className="nav_link" to="/">
+            <img className="logo" src={Logo} alt="Logo" />
+          </NavLink>
+          <NavLink className="nav_link" to="/cart">
+            <CartWidget />
+          </NavLink>
+        </div>
+        <div className="categories-nav">
+          <NavLink className="nav_link" to="/categoria/inalambricos">
+            Inalámbricos
+          </NavLink>
+
+          <NavLink className="nav_link" to="/categoria/concable">
+            Con Cable
+          </NavLink>
+
+          <NavLink className="nav_link" to="/categoria/concable">
+            Con Cable
+          </NavLink>
+
+          <NavLink className="nav_link" to="/categoria/concable">
+            Con Cable
+          </NavLink>
+
+          <NavLink className="nav_link" to="/categoria/concable">
+            Con Cable
+          </NavLink>
         </div>
       </nav>
     </div>
   );
 };
 
-export default Navbar;
+export default NavBar;

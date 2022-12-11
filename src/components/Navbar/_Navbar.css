@@ -1,13 +1,56 @@
-#cart-bg {
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
-  background: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container_navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 }
 
-#badge-radius {
-  border-radius: 25px;
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.shop-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #fff;
+}
+
+.categories-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e40127;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.nav_link:hover {
+    color: rgb(238, 198, 90);
+}
+
+.logo {
+    width: 120px;
 }

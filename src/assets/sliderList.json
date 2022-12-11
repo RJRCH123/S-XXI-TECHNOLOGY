@@ -1,0 +1,29 @@
+[
+  {
+    "title": "",
+    "description": "",
+    "img": "slide1.png",
+    "alt":"",
+    "color": "#00C49F"
+  },    {
+    "title": "",
+    "description": "",
+    "img": "slide2.png",
+    "alt":"",
+    "color": "#303c54"
+  },   
+  {
+    "title": "",
+    "description": "",
+    "img": "slide3.png",
+    "alt":"",
+    "color": "#0088FE"
+  },     
+  {
+    "title": "",
+    "description": "",
+    "img": "slide4.png",
+    "alt":"",
+    "color": "#FFBB28"     
+  }
+]

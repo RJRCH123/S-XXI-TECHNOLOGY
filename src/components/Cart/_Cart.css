@@ -1,41 +1,107 @@
-#cart-img {
-  max-width: 100px;
-  height: 100;
+
+.list-shop {
+    display: flex;
+}
+.list-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+.container-Form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
 }
 
-.quantity-box {
-  width: 100px;
-  height: 30px;
-  max-height: 30px;
-  display: flex;
-  justify-content: space-between;
+.shop-products {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 1rem 2rem;
 }
 
-.result-quantity {
-  background-color: transparent;
-  width: 35px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-block: 1px solid black;
+.shop-person {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    gap: 0.5rem;
 }
 
-.btn-subs,
-.btn-add {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 32px;
-  padding: 0%;
-  margin: 0%;
-  border: 1px solid black;
+.shop-person input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 15px;
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 8px;
+    outline: 0px;
 }
 
-.btn-subs:hover,
-.btn-add:hover {
-  background: gray;
-  color: white;
-  cursor: pointer;
+.btn-delete {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+    padding: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background-color: gray;
+}
+
+.btn-buy {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    padding: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-buy:hover {
+    background-color: gray;
+}
+
+.btn-continue {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(59, 59, 252);
+    padding: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-continue:hover {
+    background-color: gray;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
 }

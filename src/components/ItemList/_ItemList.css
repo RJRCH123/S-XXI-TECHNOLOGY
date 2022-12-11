@@ -1,0 +1,6 @@
+.item-container-map {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 1rem;
+}
