@@ -23,7 +23,7 @@
 👩🏽‍💻 **S.XXI Technology**  es un proyecto realizado en 1 mes con asesoramiento por parte de coderhouse. Trata sobre un ecommerce cuya temática es la venta de productos tecnológicos como (laptops, celulares, parlantes, audifonos, etc.)
 
 ## 1.2  Interación con la página
-Se puede acceder a la página mediante el siguiente [link](sxxi-tecnology.netlify.app/), y además se adjunta la videodemostración para el funcionamiento de cada flujo, con el fin de brindar entendimento e interactuar con todas las vistas y funcionalidades de la interfaz.
+Se puede acceder a la página mediante el siguiente [link](https://sxxi-tecnology.netlify.app/), y además se adjunta la videodemostración para el funcionamiento de cada flujo, con el fin de brindar entendimento e interactuar con todas las vistas y funcionalidades de la interfaz.
 
 <div align="center">
 
