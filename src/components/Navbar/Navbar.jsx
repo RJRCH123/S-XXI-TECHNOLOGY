@@ -20,23 +20,23 @@ export const NavBar = () => {
         </div>
         <div className="categories-nav">
           <NavLink className="nav_link" to="/categoria/inalambricos">
-            Inalámbricos
+            Audífonos
           </NavLink>
 
           <NavLink className="nav_link" to="/categoria/concable">
-            Con Cable
+            Computadoras y Laptos
           </NavLink>
 
-          <NavLink className="nav_link" to="/categoria/concable">
-            Con Cable
+          <NavLink className="nav_link" to="/categoria/celulares">
+            Celulares
           </NavLink>
 
-          <NavLink className="nav_link" to="/categoria/concable">
-            Con Cable
+          <NavLink className="nav_link" to="/categoria/parlantes">
+           Parlantes
           </NavLink>
 
-          <NavLink className="nav_link" to="/categoria/concable">
-            Con Cable
+          <NavLink className="nav_link" to="/categoria/accesorios">
+            Accesorios
           </NavLink>
         </div>
       </nav>
